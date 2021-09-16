@@ -1,10 +1,9 @@
 #! /bin/zsh
-
 if [ $# != 1 ]; then
-	echo "Error: Set your Existing project ID (Spreadsheet, Form, and so on...)" $*
+	echo "Error: Set your Existing GAS script ID (Spreadsheet, Form, and so on...) as a argument." $*
     exit 1
 else
-    echo "Start creating a New clasp project with TypeScript "
+    echo "Start creating a New GAS script with TypeScript by cloning a existing GAS script."
 fi
 
 npm init -y
