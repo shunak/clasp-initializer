@@ -20,6 +20,6 @@ yarn add -S @types/google-apps-script
 tslint --init # tslint は必須ではないがグッドマナーとして導入しておこう
 
 clasp login
-clasp clone $1
+clasp clone $1 --rootDir src
 
 rm exe.sh
