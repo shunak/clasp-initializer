@@ -10,12 +10,18 @@ fi
 # npm init -y
 # npm install @google/clasp tslint -D 
 # npm install @types/google-apps-script -S
-
+# Install Test Unit "ts-jest"
+# npm install --save-dev jest typescript ts-jest @types/jest
+# npx ts-jest config:init
 
 # For yarn
 yarn init -y
 yarn add -D @google/clasp tslint 
 yarn add -S @types/google-apps-script
+# Install Test Unit "ts-jest"
+yarn add -D jest "@types/jest" ts-jest
+yarn ts-jest config:init 
+
 
 tslint --init # tslint は必須ではないがグッドマナーとして導入しておこう
 
