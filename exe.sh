@@ -29,6 +29,7 @@ tslint --init # tslint は必須ではないがグッドマナーとして導入
 clasp login
 clasp clone $1 --rootDir src
 
+# For Testing module
 mkdir __tests___
 touch ./__tests__/SpreadSheetUtils.test.ts
 touch ./src/SpreadSheetUtils.ts
