@@ -23,7 +23,6 @@ yarn add -S @types/google-apps-script
 yarn add -D jest "@types/jest" ts-jest
 yarn ts-jest config:init 
 
-
 tslint --init # tslint : Not must
 
 clasp login
