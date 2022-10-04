@@ -13,7 +13,6 @@ fi
 # Install Test Unit "ts-jest"
 # npm install --save-dev jest typescript ts-jest @types/jest
 # npx ts-jest config:init
-
 # For yarn
 yarn init -y
 yarn add -D @google/clasp tslint 
