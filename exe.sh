@@ -24,7 +24,7 @@ yarn add -D jest "@types/jest" ts-jest
 yarn ts-jest config:init 
 
 
-tslint --init # tslint は必須ではないがグッドマナーとして導入しておこう
+tslint --init # tslint : Not must
 
 clasp login
 clasp clone $1 --rootDir src
