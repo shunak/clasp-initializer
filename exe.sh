@@ -24,8 +24,10 @@ yarn ts-jest config:init
 
 tslint --init # tslint : Not must
 
+mkdir src
 clasp login
-clasp clone $1 --rootDir src
+# clasp clone $1 --rootDir src // not work propery
+clasp clone $1
 
 # For Testing module
 mkdir __tests__
