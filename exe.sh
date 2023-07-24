@@ -28,7 +28,7 @@ clasp login
 clasp clone $1 --rootDir src
 
 # For Testing module
-mkdir __tests___
+mkdir __tests__
 touch ./__tests__/SpreadSheetUtils.test.ts
 touch ./src/SpreadSheetUtils.ts
 
