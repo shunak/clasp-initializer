@@ -32,6 +32,6 @@ clasp clone $1
 # For Testing module
 mkdir __tests__
 touch ./__tests__/SpreadSheetUtils.test.ts
-touch ./src/SpreadSheetUtils.ts
+# touch ./src/SpreadSheetUtils.ts
 
 rm exe.sh
