@@ -19,8 +19,8 @@ yarn add -D @google/clasp tslint
 yarn add -S @types/google-apps-script
 # Install Test Unit "ts-jest". To test execute `yarn run jest`
 # Installing ts-jest https://huafu.github.io/ts-jest/user/install
-yarn add -D jest "@types/jest" ts-jest
-yarn ts-jest config:init 
+# yarn add -D jest "@types/jest" ts-jest
+# yarn ts-jest config:init 
 
 tslint --init # tslint : Not must
 
